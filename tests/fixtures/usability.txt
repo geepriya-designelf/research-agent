@@ -1,0 +1,25 @@
+[00:02:14]
+Moderator: Your task is to add a second payment card and set it as the default.
+P07: Okay.
+[00:02:31]
+Observer: Participant opens the account menu, scrolls the full list, scrolls back up.
+P07: I'd expect this to be under payment somewhere.
+[00:02:58]
+Observer: Participant clicks "Billing", pauses for 15 seconds, returns to the account menu.
+P07: Hmm. That's just invoices.
+[00:03:20]
+Observer: Participant clicks "Wallet". Add card form opens.
+P07: Oh, there it is. Wallet. I wouldn't have called it that.
+[00:04:02]
+Observer: Participant fills the form and saves. No confirmation appears. Participant navigates back to the list twice.
+P07: Did that work? I think that worked.
+[00:04:40]
+Moderator: What are you looking for right now?
+P07: I want to see it in a list somewhere so I know it took.
+[00:05:10]
+Observer: Participant cannot locate a control to set the default card. Asks for help after 90 seconds.
+P07: I don't see how to make it the main one. Is that a thing?
+Moderator: There's a setting on the card itself.
+[00:05:55]
+Observer: With assistance, participant completes the task.
+P07: That was easy enough once you know.

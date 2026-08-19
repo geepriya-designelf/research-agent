@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: oklch(0.985 0.002 250);
+  --color-surface: oklch(1 0 0);
+  --color-ink: oklch(0.21 0.02 260);
+  --color-muted-ink: oklch(0.52 0.015 260);
+  --color-line: oklch(0.91 0.008 260);
+  --color-accent: oklch(0.52 0.13 258);
+  --color-accent-soft: oklch(0.955 0.02 258);
+
+  --color-evidence: oklch(0.55 0.11 155);
+  --color-evidence-soft: oklch(0.96 0.03 155);
+  --color-caution: oklch(0.62 0.15 65);
+  --color-caution-soft: oklch(0.97 0.04 75);
+  --color-alarm: oklch(0.55 0.19 25);
+  --color-alarm-soft: oklch(0.96 0.03 25);
+}
+
+:root {
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Verbatim source text. Visually distinct from analysis everywhere it appears,
+   because the whole product depends on the reader knowing which is which. */
+.quote {
+  font-family: ui-serif, Georgia, Cambria, serif;
+  font-style: italic;
+}
